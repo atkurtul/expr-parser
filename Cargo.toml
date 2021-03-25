@@ -1,0 +1,12 @@
+[package]
+name = "c-expr"
+version = "0.3.1"
+authors = ["atil <atilkurtulmus@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "clike expression parser"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustc-hash = "1.1.0"
+logos = "0.12.0"
